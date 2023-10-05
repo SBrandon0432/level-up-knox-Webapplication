@@ -7,7 +7,7 @@ export interface StoreCard {
     icon: string;
     location: string;
     locationHerf: string;
-    calender: string[];
+    calender: Calender[];
 }
 
 export interface EmployeeCard {
@@ -15,4 +15,15 @@ export interface EmployeeCard {
     hobby: string;
     position: string;
     about: string;
+}
+
+export interface Calender {
+    day: string;
+    events: Event[];
+}
+
+export interface Event {
+    title: string;
+    startTime: string;
+    description?: string;
 }
