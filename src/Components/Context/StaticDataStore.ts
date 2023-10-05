@@ -1,11 +1,5 @@
 import knoxSquareLogo from "../../Assets/Images/levelup-square-logo.pdf-01.png";
 import { StoreCard } from "./types";
-// export interface StoreCard {
-//   icon: string;
-//   location: string;
-//   locationHerf: string;
-//   calender: string[];
-// }
 
 export const StoreCards: StoreCard[] = [
     {
