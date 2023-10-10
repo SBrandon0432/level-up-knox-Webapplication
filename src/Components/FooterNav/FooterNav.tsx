@@ -9,10 +9,18 @@ export const FooterNav = () => {
     return (
         <Navbar className="FooterNav" fixed="bottom">
             <div className="socials">
-                <img src={discord} className="svg" />
+                <a href="https://discord.gg/yDyawXka3s">
+                    <img src={discord} className="svg" />
+                </a>
+                <a></a>
                 <img src={tickTock} className="svg" />
-                <img src={facebook} className="svg" />
-                <img src={instaGram} className="svg" />
+
+                <a href="https://www.facebook.com/levelupknox/">
+                    <img src={facebook} className="svg" />
+                </a>
+                <a href="https://www.instagram.com/levelupknox/">
+                    <img src={instaGram} className="svg" />
+                </a>
             </div>
         </Navbar>
     );
