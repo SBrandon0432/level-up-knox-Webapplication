@@ -1,24 +1,26 @@
-.navbar {
-    background-color: #5268c2;
+.NavBar.navbar {
     height: 8rem;
+    background-color: #5268c2;
+    opacity: 0.8;
 
     .image {
         max-width: 15rem;
     }
-    .about-container {
+
+    .tabs {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 24rem;
+        justify-content: space-between;
     }
 
-    .line {
-        background-color: black;
-        width: 13rem;
-        height: 2px;
-    }
-    .about {
+    .tab {
         font-size: 1.75rem;
         font-weight: 700;
+        border-bottom: 2px solid black;
+
+        &:hover {
+            color: lightgray;
+            border-bottom: 2px solid lightgray;
+        }
     }
 }

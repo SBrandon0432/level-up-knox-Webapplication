@@ -1,0 +1,27 @@
+import Navbar from "react-bootstrap/Navbar";
+import discord from "../../Assets/Svgs/socials-svgs/discord-communication-interaction-message-network-svgrepo-com.svg";
+import facebook from "../../Assets/Svgs/socials-svgs/facebook-color-svgrepo-com.svg";
+import instaGram from "../../Assets/Svgs/socials-svgs/instagram-1-svgrepo-com.svg";
+import tickTock from "../../Assets/Svgs/socials-svgs/tiktok-icon-black-1-logo-svgrepo-com.svg";
+import "./FooterNavS.scss";
+
+export const FooterNav = () => {
+    return (
+        <Navbar className="FooterNav" fixed="bottom">
+            <div className="socials">
+                <a href="https://discord.gg/yDyawXka3s">
+                    <img src={discord} className="svg" />
+                </a>
+                <a></a>
+                <img src={tickTock} className="svg" />
+
+                <a href="https://www.facebook.com/levelupknox/">
+                    <img src={facebook} className="svg" />
+                </a>
+                <a href="https://www.instagram.com/levelupknox/">
+                    <img src={instaGram} className="svg" />
+                </a>
+            </div>
+        </Navbar>
+    );
+};
