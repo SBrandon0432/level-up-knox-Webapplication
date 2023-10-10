@@ -1,3 +1,5 @@
+import "./HomeS.scss";
+
 export const Home = () => {
-    return <h1>hello</h1>;
+    return <div className="Home">hello</div>;
 };
