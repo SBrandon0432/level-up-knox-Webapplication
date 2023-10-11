@@ -1,6 +1,8 @@
+@import "../../Sass/Variables";
+
 .NavBar.navbar {
     height: 8rem;
-    background-color: #5268c2;
+    background-color: $primary;
     opacity: 0.8;
 
     .image {
@@ -16,11 +18,11 @@
     .tab {
         font-size: 1.75rem;
         font-weight: 700;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid $primary-black;
 
         &:hover {
             color: lightgray;
-            border-bottom: 2px solid lightgray;
+            border-bottom: 2px solid $primary-grey;
         }
     }
 }

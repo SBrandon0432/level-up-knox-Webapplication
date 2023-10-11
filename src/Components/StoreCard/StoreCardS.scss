@@ -1,0 +1,32 @@
+@import "../../Sass/Variables";
+
+.StoreCard.card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+
+    .card-body {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .Title {
+        text-transform: capitalize;
+    }
+
+    .icon {
+        width: 10rem;
+    }
+
+    .buttonGroup {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .cardButton {
+        width: 10rem;
+        margin-right: 1rem;
+    }
+}

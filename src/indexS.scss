@@ -1,4 +1,13 @@
+// $primary: #5268c2;
+
+// $theme-colors: (
+//     primary: $primary,
+// );
+
+// @import "bootstrap";
+
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import "./Sass/Variables";
 
 *,
 *::before,
@@ -17,5 +26,5 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     min-height: 100vh;
-    background-color: #ffff;
+    background-color: $primary-white;
 }

@@ -3,11 +3,13 @@ export interface StoreImages {
     name: string;
 }
 
-export interface StoreCard {
+export interface StoreCardProps {
     icon: string;
     location: string;
     locationHerf: string;
     calender: Calender[];
+    name: string;
+    subText: string;
 }
 
 export interface EmployeeCard {
