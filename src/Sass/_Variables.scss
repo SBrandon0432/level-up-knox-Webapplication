@@ -1,0 +1,10 @@
+$primary: #5268c2;
+$primary-white: #ffff;
+$primary-grey: lightgrey;
+$primary-black: black;
+
+$theme-colors: (
+    primary: $primary,
+);
+
+@import "bootstrap";

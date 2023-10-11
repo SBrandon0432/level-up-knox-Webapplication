@@ -1,2 +1,14 @@
 .Home {
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+
+    .storeCards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
