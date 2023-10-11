@@ -14,7 +14,7 @@ export const StoreInformation = ({ card }: Props) => {
         <Container className="StoreInformation">
             <Card.Title className="Title">{name}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{subText}</Card.Subtitle>
-            <Card.Text className="location-container">
+            <Container className="location-container">
                 <a href={locationHerf}>
                     <img
                         src={locationIcon}
@@ -23,7 +23,7 @@ export const StoreInformation = ({ card }: Props) => {
                     />
                 </a>
                 <div className="location">{location}</div>
-            </Card.Text>
+            </Container>
         </Container>
     );
 };

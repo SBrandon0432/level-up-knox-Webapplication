@@ -9,8 +9,8 @@ export const Home = () => {
     return (
         <div className="Home">
             <div className="storeCards-container">
-                {storeCards.map((card) => {
-                    return <StoreCard card={card} />;
+                {storeCards.map((card, index) => {
+                    return <StoreCard card={card} key={index} />;
                 })}
             </div>
         </div>

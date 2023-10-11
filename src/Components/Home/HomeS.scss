@@ -10,5 +10,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .storeCards-container::-webkit-scrollbar {
+        display: none;
     }
 }

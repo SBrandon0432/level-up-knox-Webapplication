@@ -2,8 +2,7 @@
 
 .NavBar.navbar {
     height: 8rem;
-    background-color: $primary;
-    opacity: 0.8;
+    background: rgba($primary, 0.8);
 
     .image {
         max-width: 15rem;
