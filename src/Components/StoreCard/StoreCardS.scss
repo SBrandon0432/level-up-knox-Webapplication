@@ -12,17 +12,8 @@
         flex-direction: column;
     }
 
-    .Title {
-        text-transform: capitalize;
-    }
-
     .icon {
-        width: 10rem;
-    }
-
-    .buttonGroup {
-        display: flex;
-        justify-content: space-evenly;
+        max-width: 12rem;
     }
 
     .cardButton {
