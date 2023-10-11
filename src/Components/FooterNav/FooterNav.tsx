@@ -10,16 +10,17 @@ export const FooterNav = () => {
         <Navbar className="FooterNav" fixed="bottom">
             <div className="socials">
                 <a href="https://discord.gg/yDyawXka3s">
-                    <img src={discord} className="svg" />
+                    <img src={discord} className="svg" alt="icon" />
                 </a>
-                <a></a>
-                <img src={tickTock} className="svg" />
+                <a href="/">
+                    <img src={tickTock} className="svg" alt="icon" />
+                </a>
 
                 <a href="https://www.facebook.com/levelupknox/">
-                    <img src={facebook} className="svg" />
+                    <img src={facebook} className="svg" alt="icon" />
                 </a>
                 <a href="https://www.instagram.com/levelupknox/">
-                    <img src={instaGram} className="svg" />
+                    <img src={instaGram} className="svg" alt="icon" />
                 </a>
             </div>
         </Navbar>
