@@ -1,0 +1,17 @@
+@import "../../../../Sass/Variables";
+
+.StoreCalendarDay {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.3rem;
+
+    .event {
+        text-transform: capitalize;
+        font-size: $font-normal;
+    }
+
+    .day {
+        text-transform: capitalize;
+        font-size: $font-large;
+    }
+}

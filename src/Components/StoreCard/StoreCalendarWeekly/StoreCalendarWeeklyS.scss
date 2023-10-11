@@ -1,0 +1,26 @@
+@import "../../../Sass/Variables";
+
+.StoreCalendarWeekly.card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 44rem;
+    background: rgba(#fff, 0.9);
+    margin-bottom: 0.5rem;
+
+    .header {
+        background: rgba($primary, 1);
+    }
+
+    .title {
+        text-transform: capitalize;
+        font-size: $font-large;
+        padding-top: 1rem;
+    }
+
+    .week {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
