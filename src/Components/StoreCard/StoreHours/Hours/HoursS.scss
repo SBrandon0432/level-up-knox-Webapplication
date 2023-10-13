@@ -1,0 +1,19 @@
+@import "../../../../Sass/Variables";
+
+.Hours {
+    display: flex;
+    flex-direction: column;
+
+    .times {
+        display: flex;
+        justify-content: space-between;
+        font-size: $font-large;
+    }
+
+    .openClose {
+    }
+
+    .day {
+        padding-right: 1rem;
+    }
+}
