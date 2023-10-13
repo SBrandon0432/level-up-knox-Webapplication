@@ -3,6 +3,7 @@ import { Button, Card, Container } from "react-bootstrap";
 import { StoreCardProps } from "../Context/types";
 import { StoreCalendarWeekly } from "./StoreCalendarWeekly/StoreCalendarWeekly";
 import "./StoreCardS.scss";
+import { StoreHours } from "./StoreHours/StoreHours";
 import { StoreInformation } from "./StoreInformation/StoreInformation";
 
 interface Props {
@@ -10,7 +11,7 @@ interface Props {
 }
 
 export const StoreCard = ({ card }: Props) => {
-    const { icon, calender, name } = card;
+    const { icon, calender, name, hours } = card;
     const [showCal, setShowCal] = useState<boolean>(false);
 
     return (
@@ -21,13 +22,8 @@ export const StoreCard = ({ card }: Props) => {
                 <div className="Card-body">
                     <Card.Body>
                         <StoreInformation card={card} />
-                        <Container>
-                            <Button
-                                className="cardButton"
-                                variant="outline-primary"
-                            >
-                                Store Hours
-                            </Button>
+                        <Container className="Buttons">
+                            <StoreHours hours={hours} />
                             <Button
                                 className="cardButton"
                                 variant="outline-primary"

@@ -1,9 +1,11 @@
 @import "../../../../Sass/Variables";
 
-.StoreCalendarDay {
+.StoreCalendarDay.card {
     display: flex;
     flex-wrap: wrap;
     margin: 0.3rem;
+    align-items: stretch;
+    width: 15rem;
 
     .event {
         text-transform: capitalize;

@@ -7,8 +7,8 @@ export const calenderLevel: Calender[] = [
         day: "sunday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "D&D",
+                startTime: "1:00 p.m.",
             },
         ],
     },
@@ -16,8 +16,9 @@ export const calenderLevel: Calender[] = [
         day: "monday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "MTG Modern",
+                startTime: "7:00 p.m.",
+                description: "$5 entry",
             },
         ],
     },
@@ -25,8 +26,12 @@ export const calenderLevel: Calender[] = [
         day: "tuesday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "D&D",
+                startTime: "5:00 p.m.",
+            },
+            {
+                title: "MTG Commander",
+                startTime: "5:00 p.m.",
             },
         ],
     },
@@ -34,8 +39,9 @@ export const calenderLevel: Calender[] = [
         day: "wednesday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "MTG Draft",
+                startTime: "7:00 p.m.",
+                description: "$14 entry",
             },
         ],
     },
@@ -43,8 +49,9 @@ export const calenderLevel: Calender[] = [
         day: "thursday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "Pokemon Standard",
+                startTime: "6:30 p.m.",
+                description: "$5 entry",
             },
         ],
     },
@@ -52,8 +59,17 @@ export const calenderLevel: Calender[] = [
         day: "friday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "MTG FNM",
+                startTime: "7:00 p.m.",
+            },
+            {
+                title: "MTG Commander",
+                startTime: "7:00 p.m.",
+            },
+            {
+                title: "MTG Draft",
+                startTime: "7:00 p.m.",
+                description: "$14 entry",
             },
         ],
     },
@@ -61,8 +77,12 @@ export const calenderLevel: Calender[] = [
         day: "saturday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "Cardfight",
+                startTime: "6:00 p.m.",
+            },
+            {
+                title: "VGC Tournaments",
+                startTime: "TBA",
             },
         ],
     },
@@ -143,6 +163,43 @@ export const StoreCards: StoreCardProps[] = [
         calender: calenderLevel,
         name: "level up games",
         subText: "gaming with the good guys",
+        hours: [
+            {
+                day: "Monday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Tuesday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Wednesday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Thursday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Friday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Saturday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Sunday",
+                open: "1:00 PM",
+                closed: "7:00 PM",
+            },
+        ],
     },
 
     {
@@ -153,5 +210,42 @@ export const StoreCards: StoreCardProps[] = [
         calender: calenderTurn1,
         name: "turn one gaming",
         subText: "gaming with the good guys",
+        hours: [
+            {
+                day: "Monday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Tuesday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Wednesday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Thursday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Friday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Saturday",
+                open: "12:00 PM",
+                closed: "9:00 PM",
+            },
+            {
+                day: "Sunday",
+                open: "12:00 PM",
+                closed: "6:00 PM",
+            },
+        ],
     },
 ];

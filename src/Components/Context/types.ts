@@ -10,6 +10,7 @@ export interface StoreCardProps {
     calender: Calender[];
     name: string;
     subText: string;
+    hours: HoursProps[];
 }
 
 export interface EmployeeCard {
@@ -26,6 +27,12 @@ export interface Calender {
 
 export interface Event {
     title: string;
-    startTime: string;
+    startTime?: string;
     description?: string;
+}
+
+export interface HoursProps {
+    day: string;
+    open: string;
+    closed: string;
 }

@@ -3,9 +3,11 @@
 .StoreCalendarWeekly.card {
     display: flex;
     flex-wrap: wrap;
-    max-width: 44rem;
     background: rgba(#fff, 0.9);
     margin-bottom: 0.5rem;
+    max-width: 50rem;
+    align-items: stretch;
+    justify-content: space-between;
 
     .header {
         background: rgba($primary, 1);
@@ -13,14 +15,14 @@
 
     .title {
         text-transform: capitalize;
-        font-size: $font-large;
+        font-size: $font-larger;
         padding-top: 1rem;
     }
 
     .week {
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
         flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
     }
 }
