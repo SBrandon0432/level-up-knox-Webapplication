@@ -1,19 +1,26 @@
 import { useContext } from "react";
+import { Container } from "react-bootstrap";
 import { Carousel } from "react-responsive-carousel";
 import { MyLevelUpContext } from "../Context/MyLevelUpContext";
 import "./StoreImagesS.scss";
 
-export function StoreImages() {
+export const StoreImages = () => {
     const { storeImages } = useContext(MyLevelUpContext);
     console.log(storeImages);
 
     return (
-        <div className="StoreImages">
-            <Carousel autoPlay>
+        <Container className="StoreImages">
+            <Carousel
+                autoPlay
+                dynamicHeight
+                showThumbs={false}
+                stopOnHover={true}
+                infiniteLoop={true}
+            >
                 {storeImages.map((url, index) => (
                     <img key={index} src={url.image} />
                 ))}
             </Carousel>
-        </div>
+        </Container>
     );
-}
+};
