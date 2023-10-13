@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { MyLevelUpContext } from "../Context/MyLevelUpContext";
 import { StoreCard } from "../StoreCard/StoreCard";
+import { StoreImages } from "../StoreImages/StoreImages";
 import "./HomeS.scss";
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
                     return <StoreCard card={card} key={index} />;
                 })}
             </div>
+            <StoreImages />
         </div>
     );
 };

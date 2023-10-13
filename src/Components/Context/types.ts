@@ -1,8 +1,3 @@
-export interface StoreImages {
-    image: string;
-    name: string;
-}
-
 export interface StoreCardProps {
     icon: string;
     location: string;
@@ -13,7 +8,7 @@ export interface StoreCardProps {
     hours: HoursProps[];
 }
 
-export interface EmployeeCard {
+export interface EmployeeCardProps {
     image: string;
     hobby: string;
     position: string;
@@ -35,4 +30,9 @@ export interface HoursProps {
     day: string;
     open: string;
     closed: string;
+}
+
+export interface StoreImagesProps {
+    image: string;
+    alt: string;
 }
