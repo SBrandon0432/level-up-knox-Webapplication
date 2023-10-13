@@ -1,18 +1,20 @@
-import { useContext } from "react";
-import { MyLevelUpContext } from "../Context/MyLevelUpContext";
-import { StoreCard } from "../StoreCard/StoreCard";
+import { Container } from "react-bootstrap";
+
+import { Mission } from "../Mission/Mission";
+import { StoreCards } from "../StoreCards/StoreCards";
+import { StoreImages } from "../StoreImages/StoreImages";
 import "./HomeS.scss";
 
 export const Home = () => {
-    const { storeCards } = useContext(MyLevelUpContext);
-
     return (
         <div className="Home">
-            <div className="storeCards-container">
-                {storeCards.map((card, index) => {
-                    return <StoreCard card={card} key={index} />;
-                })}
-            </div>
+            <Container className="storeCards-container">
+                <StoreCards />
+            </Container>
+            <Container className="storeImages-container">
+                <StoreImages />
+                <Mission />
+            </Container>
         </div>
     );
 };

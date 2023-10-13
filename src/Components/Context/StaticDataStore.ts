@@ -1,6 +1,10 @@
-import knoxSquareLogo from "../../Assets/Images/levelup-square-logo.pdf-01.png";
+import storeDoor from "../../Assets/Images/Lel-Door.jpg";
+import storeFront from "../../Assets/Images/Lvl-Front.jpg";
+import storeGameArea from "../../Assets/Images/Lvl-GameArea.jpg";
+import storeInside from "../../Assets/Images/Lvl-StoreInside.jpg";
 import turn1GamingLogo from "../../Assets/Images/Turn1.jpeg";
-import { Calender, StoreCardProps } from "./types";
+import knoxSquareLogo from "../../Assets/Images/levelup-square-logo.pdf-01.png";
+import { Calender, StoreCardProps, StoreImagesProps } from "./types";
 
 export const calenderLevel: Calender[] = [
     {
@@ -249,3 +253,24 @@ export const StoreCards: StoreCardProps[] = [
         ],
     },
 ];
+
+export const StoreImages: StoreImagesProps[] = [
+    {
+        image: storeFront,
+        alt: "store front",
+    },
+    {
+        image: storeDoor,
+        alt: "store door",
+    },
+    {
+        image: storeInside,
+        alt: "store inside",
+    },
+    {
+        image: storeGameArea,
+        alt: "store front",
+    },
+];
+
+export const testimages = [storeFront, storeDoor, storeGameArea, storeInside];

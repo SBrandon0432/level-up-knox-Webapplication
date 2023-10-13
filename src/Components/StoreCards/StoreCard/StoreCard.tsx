@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Button, Card, Container } from "react-bootstrap";
-import { StoreCardProps } from "../Context/types";
-import { StoreCalendarWeekly } from "./StoreCalendarWeekly/StoreCalendarWeekly";
+import { StoreCardProps } from "../../Context/types";
+import { StoreCalendarWeekly } from "../StoreCalendarWeekly/StoreCalendarWeekly";
 import "./StoreCardS.scss";
-import { StoreHours } from "./StoreHours/StoreHours";
-import { StoreInformation } from "./StoreInformation/StoreInformation";
+import { StoreHours } from "../StoreHours/StoreHours";
+import { StoreInformation } from "../StoreInformation/StoreInformation";
 
 interface Props {
     card: StoreCardProps;

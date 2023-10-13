@@ -9,10 +9,10 @@ interface Props {
 export const Hours = ({ hours }: Props) => {
     return (
         <Popover.Body className="Hours">
-            {hours.map((time) => {
+            {hours.map((time, index) => {
                 const { day, open, closed } = time;
                 return (
-                    <Container className="times">
+                    <Container className="times" key={index}>
                         <div className="day">{day}</div>
                         <div className="openClose">
                             {open} - {closed}
