@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../Assets/Svgs/MainLogoKnox.svg";
+import { Contact } from "../Contact/Contact";
 import "./NavBarS.scss";
 
 export const NavBar = () => {
@@ -15,9 +16,7 @@ export const NavBar = () => {
                     </div>
                 </Navbar.Brand>
                 <div className="tabs">
-                    <Nav.Link href="/" className="tab">
-                        Contact
-                    </Nav.Link>
+                    <Contact />
                     <Nav.Link href="/" className="tab">
                         Meet Our Team
                     </Nav.Link>

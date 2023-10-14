@@ -1,0 +1,43 @@
+@import "../../Sass/Variables";
+
+.offcanvas {
+    background-image: url("../../Assets/Images/defaultBackground.jpg") !important;
+    background-size: cover;
+    background-position: center;
+
+    &-header {
+        background-image: url("../../Assets/Images/background-1884703.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    &-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-shadow: 1px 1px 10px white;
+    }
+}
+
+.Contact {
+    .tab {
+        font-size: 1.75rem;
+        font-weight: 700;
+        transition: all 0.5s;
+
+        &:hover {
+            background: url("../../Assets/Images/background-1884703.jpg") 0 0
+                repeat;
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+}
