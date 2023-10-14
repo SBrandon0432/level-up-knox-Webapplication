@@ -1,11 +1,13 @@
 @import "../../Sass/Variables";
 
 .NavBar.navbar {
-    height: 8rem;
+    height: 5rem;
     background: rgba($primary, 0.8);
 
     .image {
-        max-width: 15rem;
+        max-width: 10rem;
+        width: fit-content;
+        height: auto;
     }
 
     .tabs {
@@ -17,11 +19,15 @@
     .tab {
         font-size: 1.75rem;
         font-weight: 700;
-        border-bottom: 2px solid $primary-black;
+        transition: all 0.5s;
 
         &:hover {
-            color: lightgray;
-            border-bottom: 2px solid $primary-grey;
+            background: url("../../Assets/Images/background-1884703.jpg") 0 0
+                repeat;
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
         }
     }
 }

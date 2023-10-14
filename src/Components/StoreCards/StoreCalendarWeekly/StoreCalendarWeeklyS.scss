@@ -3,11 +3,23 @@
 .StoreCalendarWeekly.card {
     display: flex;
     flex-wrap: wrap;
-    background: rgba(#fff, 0.9);
     margin-bottom: 0.5rem;
     max-width: 50rem;
     align-items: stretch;
-    justify-content: space-between;
+    background: rgba(white, 0.8);
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 1px;
+        height: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    }
 
     .header {
         background: rgba($primary, 1);
@@ -21,8 +33,5 @@
 
     .week {
         display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-        justify-content: space-between;
     }
 }
