@@ -14,15 +14,15 @@ export const StoreInformation = ({ card }: Props) => {
         <Container className="StoreInformation">
             <Card.Title className="Title">{name}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{subText}</Card.Subtitle>
-            <Container className="location-container">
-                <a href={locationHerf}>
+            <Container>
+                <a href={locationHerf} className="location-container">
                     <img
                         src={locationIcon}
                         className="locationIcon"
                         alt="icon"
                     />
+                    <div className="location">{location}</div>
                 </a>
-                <div className="location">{location}</div>
             </Container>
         </Container>
     );

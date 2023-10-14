@@ -8,15 +8,6 @@ import { Calender, StoreCardProps, StoreImagesProps } from "./types";
 
 export const calenderLevel: Calender[] = [
     {
-        day: "sunday",
-        events: [
-            {
-                title: "D&D",
-                startTime: "1:00 p.m.",
-            },
-        ],
-    },
-    {
         day: "monday",
         events: [
             {
@@ -87,6 +78,15 @@ export const calenderLevel: Calender[] = [
             {
                 title: "VGC Tournaments",
                 startTime: "TBA",
+            },
+        ],
+    },
+    {
+        day: "sunday",
+        events: [
+            {
+                title: "D&D",
+                startTime: "1:00 p.m.",
             },
         ],
     },

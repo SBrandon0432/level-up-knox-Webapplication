@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { Container } from "react-bootstrap";
 import { Carousel } from "react-responsive-carousel";
 import { MyLevelUpContext } from "../Context/MyLevelUpContext";
 import "./StoreImagesS.scss";
@@ -9,7 +8,7 @@ export const StoreImages = () => {
     console.log(storeImages);
 
     return (
-        <Container className="StoreImages">
+        <div className="StoreImages">
             <Carousel
                 autoPlay
                 dynamicHeight
@@ -18,9 +17,9 @@ export const StoreImages = () => {
                 infiniteLoop={true}
             >
                 {storeImages.map((url, index) => (
-                    <img key={index} src={url.image} />
+                    <img key={index} src={url.image} alt={url.alt} />
                 ))}
             </Carousel>
-        </Container>
+        </div>
     );
 };
