@@ -17,11 +17,17 @@
     }
 
     .banner {
-        width: 25rem;
+        display: flex;
+        min-width: 15rem;
+        max-width: 23rem;
         border-radius: 10%;
     }
 
     .tik {
-        height: 8rem;
+        max-height: 8rem;
+    }
+
+    .face {
+        margin-top: 14rem;
     }
 }

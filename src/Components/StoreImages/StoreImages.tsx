@@ -5,7 +5,6 @@ import "./StoreImagesS.scss";
 
 export const StoreImages = () => {
     const { storeImages } = useContext(MyLevelUpContext);
-    console.log(storeImages);
 
     return (
         <div className="StoreImages">
