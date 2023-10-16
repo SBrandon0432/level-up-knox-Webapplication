@@ -1,0 +1,27 @@
+.ContactBanners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    flex-direction: column;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .banner-container {
+        padding-bottom: 1rem;
+    }
+
+    .banner {
+        width: 25rem;
+        border-radius: 10%;
+    }
+
+    .tik {
+        height: 8rem;
+    }
+}

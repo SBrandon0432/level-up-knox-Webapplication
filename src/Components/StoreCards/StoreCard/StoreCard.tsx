@@ -23,7 +23,7 @@ export const StoreCard = ({ card }: Props) => {
                     <Card.Body>
                         <StoreInformation card={card} />
                         <Container className="Buttons">
-                            <StoreHours hours={hours} />
+                            <StoreHours hours={hours} placement="right" />
                             <Button
                                 className="cardButton"
                                 variant="outline-primary"

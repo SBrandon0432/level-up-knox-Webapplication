@@ -9,6 +9,7 @@ import "./StoreHoursS.scss";
 
 interface Props {
     hours: HoursProps[];
+    placement: any;
 }
 
 export const StoreHours = ({ hours }: Props) => {
@@ -17,10 +18,10 @@ export const StoreHours = ({ hours }: Props) => {
     return (
         <div className="StoreHours">
             <OverlayTrigger
-                placement="right"
+                placement={"right"}
                 delay={{ show: 250, hide: 400 }}
                 overlay={
-                    <Popover id="popover-contained" placement="right">
+                    <Popover id="popover-contained" placement={"right"}>
                         <Popover.Header
                             style={{
                                 display: "flex",

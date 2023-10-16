@@ -18,6 +18,12 @@
         align-items: center;
     }
 
+    &-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .title {
         font-size: 1.7rem;
         font-weight: 600;

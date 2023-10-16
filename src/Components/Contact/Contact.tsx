@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { ContactBanners } from "./ContactBanners/ContactBanners";
 import "./ContactS.scss";
 import { PhoneNumbers } from "./PhoneNumbers/PhoneNumbers";
 
@@ -22,6 +23,7 @@ export const Contact = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <PhoneNumbers />
+                    <ContactBanners />
                 </Offcanvas.Body>
             </Offcanvas>
         </div>

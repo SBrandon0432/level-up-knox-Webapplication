@@ -1,4 +1,4 @@
-.PhoneNumbers {
+.PhoneNumbers.card {
     background: rgba(white, 0.8);
 
     .header {
@@ -18,5 +18,18 @@
 
     .number {
         padding-left: 1rem;
+    }
+
+    .name {
+        text-transform: capitalize;
+        font-size: 1.3rem;
+    }
+
+    .isopen {
+        margin-left: 1rem;
+    }
+
+    .text {
+        font-size: 1.3rem;
     }
 }
