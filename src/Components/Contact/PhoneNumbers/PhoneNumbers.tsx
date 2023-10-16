@@ -16,7 +16,7 @@ export const PhoneNumbers = () => {
             <Card.Body className="numbers">
                 {storeCards.map(({ hours, phone, name }, index) => {
                     return (
-                        <div className="store">
+                        <div className="store" key={name}>
                             <div className="name">{name}</div>
                             <div className="number">{phone}</div>
                             <Badge
