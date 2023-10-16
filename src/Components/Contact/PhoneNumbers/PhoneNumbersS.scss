@@ -1,0 +1,22 @@
+.PhoneNumbers {
+    background: rgba(white, 0.8);
+
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store {
+        display: flex;
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .number {
+        padding-left: 1rem;
+    }
+}
