@@ -6,9 +6,11 @@
     background-position: center;
 
     &-header {
+        background-color: gold;
         background-image: url("../../Assets/Images/background-1884703.jpg");
         background-size: cover;
         background-position: center;
+        height: 5rem;
     }
 
     &-title {
