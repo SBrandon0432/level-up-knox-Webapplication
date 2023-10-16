@@ -8,17 +8,23 @@ export const ContactBanners = () => {
     return (
         <div className="ContactBanners">
             <div className="banner-container">
-                <img src={face} className="banner" alt="facebook" />
+                <a href="https://www.facebook.com/levelupknox/">
+                    <img src={face} className="banner" alt="facebook" />
+                </a>
             </div>
             <div className="banner-container">
-                <img src={discord} className="banner" alt="discord" />
+                <a href="https://discord.gg/yDyawXka3s">
+                    <img src={discord} className="banner" alt="discord" />
+                </a>
             </div>
             <div className="banner-container">
                 <img src={insta} className="banner" alt="instagram" />
             </div>
 
             <div className="banner-container">
-                <img src={tick} className="banner tik" alt="tiktok" />
+                <a href="https://www.instagram.com/levelupknox/">
+                    <img src={tick} className="banner tik" alt="tiktok" />
+                </a>
             </div>
         </div>
     );
