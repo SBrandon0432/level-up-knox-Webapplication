@@ -6,6 +6,7 @@ export interface StoreCardProps {
     name: string;
     subText: string;
     hours: HoursProps[];
+    phone: string;
 }
 
 export interface EmployeeCardProps {

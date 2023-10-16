@@ -204,6 +204,7 @@ export const StoreCards: StoreCardProps[] = [
                 closed: "7:00 PM",
             },
         ],
+        phone: "(865) 332-0041",
     },
 
     {
@@ -251,6 +252,7 @@ export const StoreCards: StoreCardProps[] = [
                 closed: "6:00 PM",
             },
         ],
+        phone: "(865) 298-5236",
     },
 ];
 
