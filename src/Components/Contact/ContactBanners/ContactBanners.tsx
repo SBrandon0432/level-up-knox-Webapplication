@@ -9,7 +9,7 @@ export const ContactBanners = () => {
         <div className="ContactBanners">
             <div className="banner-container">
                 <a href="https://www.facebook.com/levelupknox/">
-                    <img src={face} className="banner" alt="facebook" />
+                    <img src={face} className="banner face" alt="facebook" />
                 </a>
             </div>
             <div className="banner-container">
