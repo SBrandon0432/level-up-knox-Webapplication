@@ -16,7 +16,11 @@ export const TeamMembers = ({ employees }: Props) => {
             <div className="team">
                 {employees.map((employee, index) => {
                     const el = (
-                        <TeamMember employee={employee} placement={num} />
+                        <TeamMember
+                            employee={employee}
+                            placement={num}
+                            key={index}
+                        />
                     );
                     if (num === 2) {
                         num = 0;
