@@ -1,4 +1,4 @@
-import DefaultUser from "../../Assets/Images/DefaultUser.jpg";
+import DefaultUser from "../../Assets/Images/Employees/DefaultUser.jpg";
 import { EmployeeCardProps } from "./types";
 
 export const employees: EmployeeCardProps[] = [

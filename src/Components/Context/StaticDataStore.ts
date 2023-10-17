@@ -1,9 +1,9 @@
-import storeDoor from "../../Assets/Images/Lel-Door.jpg";
-import storeFront from "../../Assets/Images/Lvl-Front.jpg";
-import storeGameArea from "../../Assets/Images/Lvl-GameArea.jpg";
-import storeInside from "../../Assets/Images/Lvl-StoreInside.jpg";
-import turn1GamingLogo from "../../Assets/Images/Turn1.jpeg";
-import knoxSquareLogo from "../../Assets/Images/levelup-square-logo.pdf-01.png";
+import turn1GamingLogo from "../../Assets/Images/Logos/Turn1.jpeg";
+import knoxSquareLogo from "../../Assets/Images/Logos/levelup-square-logo.pdf-01.png";
+import storeDoor from "../../Assets/Images/StoreImages//Lel-Door.jpg";
+import storeGameArea from "../../Assets/Images/StoreImages//Lvl-GameArea.jpg";
+import storeInside from "../../Assets/Images/StoreImages//Lvl-StoreInside.jpg";
+import storeFront from "../../Assets/Images/StoreImages/Lvl-Front.jpg";
 import { Calender, StoreCardProps, StoreImagesProps } from "./types";
 
 export const calenderLevel: Calender[] = [
@@ -274,5 +274,3 @@ export const StoreImages: StoreImagesProps[] = [
         alt: "store front",
     },
 ];
-
-export const testimages = [storeFront, storeDoor, storeGameArea, storeInside];
