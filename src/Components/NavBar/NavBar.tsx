@@ -19,16 +19,14 @@ export const NavBar = () => {
                     </div>
                 </Navbar.Brand>
                 <div className="tabs">
+                    <Nav.Link href={Paths.HOME} className="tab">
+                        Home
+                    </Nav.Link>
+
+                    <Nav.Link href={Paths.MEETTEAM} className="tab">
+                        Meet Our Team
+                    </Nav.Link>
                     <Contact />
-                    {location.pathname === Paths.HOME ? (
-                        <Nav.Link href={Paths.MEETTEAM} className="tab">
-                            Meet Our Team
-                        </Nav.Link>
-                    ) : (
-                        <Nav.Link href={Paths.HOME} className="tab">
-                            Home
-                        </Nav.Link>
-                    )}
                 </div>
             </Container>
         </Navbar>

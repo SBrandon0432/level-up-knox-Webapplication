@@ -1,0 +1,21 @@
+.MeetTeam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    height: 100%;
+    overflow: scroll;
+    background-color: black;
+
+    &::-webkit-scrollbar {
+        display: none;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .team {
+        display: flex;
+        justify-content: center;
+    }
+}
