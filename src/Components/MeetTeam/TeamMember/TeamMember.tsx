@@ -8,7 +8,7 @@ interface Props {
 }
 
 export const TeamMember = ({ employee, placement }: Props) => {
-    const { name, image, hobby, about, position } = employee;
+    const { name, image, hobby, position } = employee;
 
     return (
         <Card className={`flip-card placement-${placement}`}>

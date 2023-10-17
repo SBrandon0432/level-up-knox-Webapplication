@@ -1,14 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { useLocation } from "react-router-dom";
 import logo from "../../Assets/Svgs/MainLogoKnox.svg";
 import { Paths } from "../../Types/types";
 import { Contact } from "../Contact/Contact";
 import "./NavBarS.scss";
 
 export const NavBar = () => {
-    const location = useLocation();
     return (
         <Navbar className="NavBar" fixed="top">
             <div className="background"></div>
