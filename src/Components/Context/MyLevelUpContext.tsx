@@ -1,5 +1,6 @@
 import { ReactNode, createContext, useState } from "react";
 import { StoreCards, StoreImages } from "./StaticDataStore";
+import { employees } from "./employies";
 import { EmployeeCardProps, StoreCardProps, StoreImagesProps } from "./types";
 
 interface MyLevelUpContextProperties {
@@ -21,7 +22,7 @@ interface Props {
 export const MyLevelUpContextProvider = ({ children }: Props) => {
     const [storeImages] = useState<StoreImagesProps[]>(StoreImages);
     const [storeCards] = useState<StoreCardProps[]>(StoreCards);
-    const [employeeCards] = useState<EmployeeCardProps[]>([]);
+    const [employeeCards] = useState<EmployeeCardProps[]>(employees);
 
     return (
         <MyLevelUpContext.Provider

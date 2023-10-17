@@ -1,13 +1,13 @@
 @import "../../Sass/Variables";
 
 .offcanvas {
-    background-image: url("../../Assets/Images/defaultBackground.jpg") !important;
+    background-image: url("../../Assets/Images/Backgrounds/defaultBackground.jpg") !important;
     background-size: cover;
     background-position: center;
 
     &-header {
         background-color: gold;
-        background-image: url("../../Assets/Images/background-1884703.jpg");
+        background-image: url("../../Assets/Images/Backgrounds/background-1884703.jpg");
         background-size: cover;
         background-position: center;
         height: 5rem;
@@ -40,8 +40,8 @@
         transition: all 0.5s;
 
         &:hover {
-            background: url("../../Assets/Images/background-1884703.jpg") 0 0
-                repeat;
+            background: url("../../Assets/Images/Backgrounds/background-1884703.jpg")
+                0 0 repeat;
             background-size: cover;
             background-clip: text;
             -webkit-background-clip: text;

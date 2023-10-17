@@ -14,6 +14,7 @@ export interface EmployeeCardProps {
     hobby: string;
     position: string;
     about: string;
+    name: string;
 }
 
 export interface Calender {
