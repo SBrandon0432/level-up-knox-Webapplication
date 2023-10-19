@@ -3,11 +3,13 @@
 .StoreCalendarWeekly.card {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     margin-bottom: 0.5rem;
-    max-width: 50rem;
+    max-width: 48rem;
     align-items: stretch;
     background: rgba(white, 0.8);
     overflow: scroll;
+    box-shadow: 1px 1px 10px black;
 
     &::-webkit-scrollbar {
         -webkit-appearance: none;

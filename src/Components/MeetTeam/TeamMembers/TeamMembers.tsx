@@ -11,7 +11,7 @@ export const TeamMembers = ({ employees }: Props) => {
     return (
         <div className="TeamMembers">
             <div className="title">
-                <h1>Meet Our team</h1>
+                <h1>Meet Our Team</h1>
             </div>
             <div className="team">
                 {employees.map((employee, index) => {

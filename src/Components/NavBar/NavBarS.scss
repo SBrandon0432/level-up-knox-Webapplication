@@ -1,8 +1,13 @@
 @import "../../Sass/Variables";
 
 .NavBar.navbar {
+    display: flex;
+    justify-content: space-between;
     height: 5rem;
     background: rgba($primary, 0.8);
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
     .image {
         max-width: 10rem;

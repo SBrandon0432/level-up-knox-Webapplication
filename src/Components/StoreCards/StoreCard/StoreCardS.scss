@@ -1,14 +1,16 @@
 @import "../../../Sass/Variables";
 
+// .container {
+//     overflow: scroll;
+//     height: fit-content;
+// }
+
 .StoreCard.card {
     display: flex;
     flex-direction: row;
-    margin-bottom: 1rem;
     background: rgba(white, 0.85);
     box-shadow: 2px 3px 10px $primary-black;
     margin-bottom: 4rem;
-    height: 14rem;
-    transition: all 0.4s;
 
     .card-body {
         height: 100%;
