@@ -9,10 +9,14 @@
     padding-left: 3rem;
     padding-right: 3rem;
 
+    .logo {
+        margin-top: 3.5rem;
+    }
+
     .image {
-        max-width: 10rem;
-        width: fit-content;
-        height: auto;
+        width: 18rem;
+        padding: 0;
+        margin: 0;
     }
 
     .tabs {

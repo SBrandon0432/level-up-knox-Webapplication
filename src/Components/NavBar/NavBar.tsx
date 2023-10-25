@@ -1,6 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../Assets/Svgs/MainLogoKnox.svg";
+import logo from "../../Assets/Svgs/onlyLevel.svg";
 import { Paths } from "../../Types/types";
 import { Contact } from "../Contact/Contact";
 import "./NavBarS.scss";
@@ -19,7 +19,7 @@ export const NavBar = () => {
                 </Nav.Link>
 
                 <Nav.Link href={Paths.MEETTEAM} className="tab">
-                    Meet Our Team
+                    Events & About
                 </Nav.Link>
                 <Contact />
             </div>

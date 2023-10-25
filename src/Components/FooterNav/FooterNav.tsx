@@ -12,7 +12,7 @@ export const FooterNav = () => {
                 <a href="https://discord.gg/yDyawXka3s">
                     <img src={discord} className="svg" alt="icon" />
                 </a>
-                <a href="/">
+                <a href="https://www.tiktok.com/@cardshoptalk">
                     <img src={tickTock} className="svg" alt="icon" />
                 </a>
 
