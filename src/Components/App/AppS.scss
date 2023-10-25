@@ -1,11 +1,10 @@
 .App {
     width: 100vw;
     height: 100vh;
-    background-image: url("../../Assets/Images/Backgrounds/ReversedDefaultBack.webp"),
-        linear-gradient(to right, grey, grey);
+    background-image: url("../../Assets/Images/Backgrounds/ReversedDefaultBack.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // background-color: white;
+    background-color: white;
     background-position: left;
 }
