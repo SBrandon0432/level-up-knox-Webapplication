@@ -1,12 +1,10 @@
 .MeetTeam {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     overflow: auto;
     height: 100%;
     overflow: scroll;
-    // background-color: black;
 
     &::-webkit-scrollbar {
         display: none;
@@ -14,8 +12,58 @@
         scrollbar-width: none;
     }
 
-    .team {
+    .calender {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-top: 4rem;
+    }
+
+    .store {
+        padding-bottom: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+        border-bottom: 2px solid black;
+        width: 90%;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+        text-transform: capitalize;
+        text-shadow: 1px 1px 10px lightgray;
+    }
+
+    .cards {
         display: flex;
         justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        display: flex;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        min-width: 25rem;
+        box-shadow: 1px 3px 8px black;
+    }
+
+    .day {
+        font-size: 1.4rem;
+        text-transform: capitalize;
+    }
+
+    .info {
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: space-between;
+    }
+
+    .eventName {
+        padding-right: 5px;
     }
 }

@@ -15,7 +15,7 @@ export const StoreCard = ({ card }: Props) => {
     const [showCal, setShowCal] = useState<boolean>(false);
 
     return (
-        <div>
+        <div className="container">
             {showCal && <StoreCalendarWeekly week={calender} name={name} />}
             <Card className="StoreCard">
                 <Card.Img src={icon} className="icon" />

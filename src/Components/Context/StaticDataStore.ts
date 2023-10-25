@@ -94,15 +94,6 @@ export const calenderLevel: Calender[] = [
 
 export const calenderTurn1: Calender[] = [
     {
-        day: "sunday",
-        events: [
-            {
-                title: "DnD",
-                startTime: "5:00 pm",
-            },
-        ],
-    },
-    {
         day: "monday",
         events: [
             {
@@ -149,6 +140,15 @@ export const calenderTurn1: Calender[] = [
     },
     {
         day: "saturday",
+        events: [
+            {
+                title: "DnD",
+                startTime: "5:00 pm",
+            },
+        ],
+    },
+    {
+        day: "sunday",
         events: [
             {
                 title: "DnD",

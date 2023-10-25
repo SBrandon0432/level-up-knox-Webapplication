@@ -18,11 +18,13 @@ export const ContactBanners = () => {
                 </a>
             </div>
             <div className="banner-container">
-                <img src={insta} className="banner" alt="instagram" />
+                <a href="https://www.instagram.com/levelupknox/">
+                    <img src={insta} className="banner" alt="instagram" />
+                </a>
             </div>
 
             <div className="banner-container">
-                <a href="https://www.instagram.com/levelupknox/">
+                <a href="https://www.tiktok.com/@cardshoptalk">
                     <img src={tick} className="banner tik" alt="tiktok" />
                 </a>
             </div>

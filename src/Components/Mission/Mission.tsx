@@ -11,9 +11,7 @@ export const Mission = () => {
                         empower our beloved communities and the people that make
                         our communities beloved.
                     </Card.Text>
-                    <Card.Text className="steven">
-                        - CEO & Founder Steven
-                    </Card.Text>
+                    <Card.Text className="steven">- Owner Stephen</Card.Text>
                 </Card.Body>
             </Card>
         </div>

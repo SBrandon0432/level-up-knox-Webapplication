@@ -8,7 +8,7 @@ interface Props {
 }
 
 export const TeamMember = ({ employee, placement }: Props) => {
-    const { name, image, hobby, position } = employee;
+    const { name, image, hobby, position, about } = employee;
 
     return (
         <Card className={`flip-card placement-${placement}`}>
@@ -17,10 +17,10 @@ export const TeamMember = ({ employee, placement }: Props) => {
                     <img src={image} alt="/" className="img" />
                 </div>
                 <div className="flip-card-back">
-                    <h1>{name}</h1>
-                    <p>{position}</p>
-                    <p>Favorite Hobby: {hobby}</p>
-                    <p>" Do or do not, there is not Try " - yoda</p>
+                    <h1 className="name">{name}</h1>
+                    <div className="text">{position}</div>
+                    <div className="text">Favorite Hobby: {hobby}</div>
+                    <div className="text">{about}</div>
                 </div>
             </div>
         </Card>
