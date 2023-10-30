@@ -4,6 +4,9 @@ import storeDoor from "../../Assets/Images/StoreImages//Lel-Door.jpg";
 import storeGameArea from "../../Assets/Images/StoreImages//Lvl-GameArea.jpg";
 import storeInside from "../../Assets/Images/StoreImages//Lvl-StoreInside.jpg";
 import storeFront from "../../Assets/Images/StoreImages/Lvl-Front.jpg";
+import OakGameArea from "../../Assets/Images/StoreImages/OakGameArea.png";
+import OakFront from "../../Assets/Images/StoreImages/OakOutside.png";
+import OakStore from "../../Assets/Images/StoreImages/OakStore.png";
 import { Calender, StoreCardProps, StoreImagesProps } from "./types";
 
 export const calenderLevel: Calender[] = [
@@ -272,5 +275,17 @@ export const StoreImages: StoreImagesProps[] = [
     {
         image: storeGameArea,
         alt: "store front",
+    },
+    {
+        image: OakFront,
+        alt: "oak ridge store front",
+    },
+    {
+        image: OakStore,
+        alt: "oak ridge store area",
+    },
+    {
+        image: OakGameArea,
+        alt: "oak ridge gaming area",
     },
 ];
