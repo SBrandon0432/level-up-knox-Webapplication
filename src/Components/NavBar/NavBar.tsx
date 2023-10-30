@@ -19,7 +19,7 @@ export const NavBar = () => {
                 </Nav.Link>
 
                 <Nav.Link href={Paths.MEETTEAM} className="tab">
-                    Events & About
+                    Weekly Events
                 </Nav.Link>
                 <Contact />
             </div>
