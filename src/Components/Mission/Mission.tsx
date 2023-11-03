@@ -7,9 +7,8 @@ export const Mission = () => {
             <Card className="mission-card">
                 <Card.Body>
                     <Card.Text className="mission">
-                        Our mission at Level up and Turn One Gaming, is to
-                        empower our beloved communities and the people that make
-                        our communities beloved.
+                        To be a boon to the communities we do business in and
+                        bring nerds, gamers, and hobbyists together!
                     </Card.Text>
                     <Card.Text className="steven">- Owner Stephen</Card.Text>
                 </Card.Body>
