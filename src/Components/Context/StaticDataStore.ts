@@ -100,8 +100,7 @@ export const calenderTurn1: Calender[] = [
         day: "monday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "D&D and Open play night",
             },
         ],
     },
@@ -109,8 +108,8 @@ export const calenderTurn1: Calender[] = [
         day: "tuesday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "Yu-gi-oh OTS Locals",
+                startTime: "6:30 pm",
             },
         ],
     },
@@ -118,8 +117,8 @@ export const calenderTurn1: Calender[] = [
         day: "wednesday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "MTG Commander",
+                startTime: "6:30 pm",
             },
         ],
     },
@@ -127,8 +126,8 @@ export const calenderTurn1: Calender[] = [
         day: "thursday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "MTG Pioneer",
+                startTime: "6:30 pm",
             },
         ],
     },
@@ -136,8 +135,12 @@ export const calenderTurn1: Calender[] = [
         day: "friday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "MTG Commander",
+                startTime: "7:00 pm",
+            },
+            {
+                title: "MTG Modern",
+                startTime: "7:00 pm",
             },
         ],
     },
@@ -145,8 +148,8 @@ export const calenderTurn1: Calender[] = [
         day: "saturday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "Yu-gi-oh OTS Locals",
+                startTime: "1:30 pm",
             },
         ],
     },
@@ -154,8 +157,24 @@ export const calenderTurn1: Calender[] = [
         day: "sunday",
         events: [
             {
-                title: "DnD",
-                startTime: "5:00 pm",
+                title: "pokemon expanded",
+                startTime: "3:00 pm",
+            },
+            {
+                title: "War Hammer 40k",
+            },
+            {
+                title: "Every 3rd Sunday Pokemon VGC Doubles",
+                startTime: "6:30 pm",
+            },
+        ],
+    },
+    {
+        day: "Special Events",
+        events: [
+            {
+                title: "Yu-gi-oh Edison Locals",
+                startTime: "",
             },
         ],
     },
