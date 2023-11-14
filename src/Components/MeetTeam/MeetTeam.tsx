@@ -38,7 +38,14 @@ export const MeetTeam = () => {
                                                                 {title}
                                                             </div>
                                                             <div>
-                                                                @{startTime}
+                                                                {startTime && (
+                                                                    <div>
+                                                                        @
+                                                                        {
+                                                                            startTime
+                                                                        }
+                                                                    </div>
+                                                                )}
                                                             </div>
                                                         </div>
                                                     );
