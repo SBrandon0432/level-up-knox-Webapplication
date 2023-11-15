@@ -18,8 +18,12 @@ export const NavBar = () => {
                     Home
                 </Nav.Link>
 
-                <Nav.Link href={Paths.MEETTEAM} className="tab">
+                <Nav.Link href={Paths.CALENDER} className="tab">
                     Weekly Events
+                </Nav.Link>
+
+                <Nav.Link href={Paths.MEETTEAM} className="tab">
+                    Meet Our Team
                 </Nav.Link>
                 <Contact />
             </div>
